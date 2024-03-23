@@ -79,16 +79,18 @@ const PasswordGenerator = () => {
                 type="checkbox"
                 className=""
                 onClick={() => numHandler()}
+                id="num"
               />
-              <label className="ml-3 text-[20px] text-white">numbers</label>
+              <label className="ml-3 text-[20px] text-white" htmlFor="num">numbers</label>
             </div>
             <div className="w-[50%]">
               <input
                 type="checkbox"
                 className=""
                 onChange={() => charHandler()}
+                id="char"
               />
-              <label className="ml-3 text-[20px] text-white">speChars</label>
+              <label className="ml-3 text-[20px] text-white" htmlFor="char">speChars</label>
             </div>
           </div>
         </div>
